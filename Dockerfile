@@ -13,8 +13,8 @@ RUN apt-get -y upgrade
 RUN apt-get install -yqq --no-install-recommends \
   wget                        \
   build-essential             \
-  octave                      
-#  scilab      
+  octave                      \
+  scilab      
 
 ## Clean up a bit to keep the image small
 RUN apt-get clean
