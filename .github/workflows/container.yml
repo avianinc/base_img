@@ -27,8 +27,9 @@ jobs:
         with:
           node-version: "14"
           check-latest: true
-      - run: npm install
-      - run: npm run build
+      #- run: npm install
+      #- run: npm run build
+      - run: apt install scilab
       - uses: jakejarvis/s3-sync-action@master
         with:
           args: --acl public-read --follow-symlinks --delete
