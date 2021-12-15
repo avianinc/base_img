@@ -1,2 +1,2 @@
 # base_img
-Base docker file image
+Base docker file for testing automation tools.
